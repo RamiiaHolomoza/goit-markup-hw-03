@@ -1,0 +1,247 @@
+:root{
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--slate) ;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+    
+ul, ol, a {
+    list-style-type: none;
+}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    list-style: none;
+}
+.visually-hidden{
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+/* header */
+
+.logo {
+
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris);}
+
+.logo-color {
+    color: var(--navy-blue);
+    ;
+}
+
+.nav-list {
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: var(--navy-blue);}
+
+.header-address{
+font-style: normal
+}
+.address {
+color:#434455;
+line-height: 150%;
+letter-spacing: 0.02em;
+}
+
+.nav-list:hover  {
+    color: var(--ocean);
+}
+
+.nav-list:focus {
+    color: var(--ocean);
+}
+.nav-list:active{
+    color: var(--ocean);
+   }
+.address:hover {
+color: var(--ocean);
+}
+.address:focus {
+    color: var(--ocean);
+}
+
+/* section hero */
+
+.section-hero {
+    background: var(--navy-blue);
+}
+.hero-main-text {
+     font-weight: 700;
+     font-size: 56px;
+     line-height: 107%;
+     letter-spacing: 0.02em;
+     text-align: center;
+     color: var(--white);
+}
+.hero-btn{
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background-color: var(--iris);
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+ background-color: var(--ocean);
+}
+.hero-btn:focus{
+    background-color: var(--ocean);
+}
+
+.hero-btn:active{
+   background-color: var(--ocean);
+}
+
+
+/* section 1 */
+.section-about{
+
+}
+
+.list-about{
+
+}
+
+.list-about-head{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.list-about-text{
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+/* section 2 */
+.section-team{
+    background: var(--cloud);
+}
+
+.section-team-main{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+    text-transform: capitalize
+
+}
+.list-teamcard {
+   background: var(--white);
+}
+
+.list-teamcard-img{
+
+}
+.list-teamcard-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--navy-blue);}
+
+.list-teamcard-job {
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* section 3 */
+.section-portfolio {
+    text-transform: capitalize
+}
+
+.section-portfolio-main{
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--navy-blue);
+}
+
+.list-projectrard {
+    background: var(--white);
+}
+
+.list-projectrard-img {}
+
+.list-projectrard-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.list-projectrard-prj {
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+/* footer */
+.footer {
+    background: var(--navy-blue);
+}
+
+.logo-footer {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+.logo-footer-color {
+    color: var(--cloud);
+    ;
+}
+
+.footer-text {
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+}
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
