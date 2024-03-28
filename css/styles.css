@@ -107,8 +107,8 @@
 
     /* header */
     .header {
-        padding-top: 24px;
-        padding-bottom: 24px;
+        /* padding-top: 24px;
+        padding-bottom: 24px; */
         border-bottom: 1px solid var(--cornflower);
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
         
@@ -135,6 +135,7 @@
 
     .nav-list {
         display: flex;
+        padding: 24px 0;
         
     }
 
@@ -200,7 +201,6 @@
 
     .address-link {
         display: inline-block;
-
         color: #434455;
         line-height: 150%;
         letter-spacing: 0.02em;
@@ -338,8 +338,8 @@
 
     .section-team-main {
     font-weight: 700;
-        font-size: 36px;
-        line-height: 111%;
+    font-size: 36px;
+    line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
