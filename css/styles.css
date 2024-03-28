@@ -339,12 +339,14 @@
     text-align: center;
     color: var(--navy-blue);
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 
     }
 
     .list-teamcard {
         display: flex;
+        flex-wrap: wrap;
+        gap: 24px
         
     }
 
@@ -412,6 +414,7 @@
     .list-projectrard {
         display: flex;
         flex-wrap: wrap;
+        column-gap: 24px;
         row-gap: 48px;
         width: 1128px;
         
