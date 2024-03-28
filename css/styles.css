@@ -82,10 +82,10 @@ ol {
 
  .container {
     
-    /* max-width:100vh; */
-     width: 1128px;
+    max-width:100vh;
+     width: 1158px;
     
-    /* width: 1158px; */
+    /* width: 1128px; */
      padding-left: 15px;
      padding-right: 15px;
      margin: 0 auto;
@@ -168,7 +168,8 @@ ol {
      font-style: normal 145.
 }
  .address-list {
-     display: inline-block;
+     display: flex;
+     gap: 40px;
     
 }
 
