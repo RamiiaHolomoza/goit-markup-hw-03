@@ -39,8 +39,16 @@
 
     a {
         list-style-type: none;
-
+        text-decoration: none;
     }
+
+        button {
+            cursor: pointer;
+        }
+
+                address {
+                    font-style: normal;
+                }
 
     img {
         display: block;
@@ -84,16 +92,15 @@
     .container {
         
         width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 0 15px;
         margin: 0 auto;
         
     }
 
     .section {
-        padding-top: 120px;
-        padding-bottom: 120px;
-        
+        /* padding-top: 120px;
+        padding-bottom: 120px; */
+        padding: 120px 0;
     }
 
 
@@ -110,7 +117,7 @@
     .container-header {
         display: flex;
         justify-content: space-between;
-        
+        align-items: center;
     }
 
     .nav {
@@ -118,6 +125,11 @@
         align-items: center;
         padding: 24px 0
         
+        /* display: flex;
+            flex-grow: 1;
+            justify-content: space-between;
+            margin-right: 90px;
+            align-items: center; */
     }
 
     .nav-list {
@@ -132,8 +144,6 @@
 
     .header-list {
         display: flex;
-        
-        /* display: inline-flex; */
         gap: 40px;
         
     }
@@ -166,9 +176,12 @@
     .header-address {
         font-style: normal 145.
     }
+
+    
     .address-list {
         display: flex;  
-        flex-wrap: wrap;
+        
+        /* flex-wrap: wrap; */
         gap: 40px;
     }
 
@@ -184,6 +197,8 @@
     }
 
     .address-link {
+        display: inline-block;
+
         color: #434455;
         line-height: 150%;
         letter-spacing: 0.02em;
