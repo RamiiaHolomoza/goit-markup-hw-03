@@ -140,7 +140,7 @@
     }
 
     .nav-item {
-        padding: 24px 0;
+       
     }
 
     .nav-item:not(:last-child) {
@@ -168,7 +168,8 @@
     }
 
     .nav-link {
-        
+        display: block;
+        padding: 24px 0;
         font-weight: 500;
         line-height: 150%;
         letter-spacing: 0.02em;
