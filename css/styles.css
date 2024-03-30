@@ -139,10 +139,6 @@
         
     }
 
-    .nav-item {
-       
-    }
-
     .nav-item:not(:last-child) {
         margin-right: 40px;
         
@@ -302,16 +298,13 @@
     .list-about {
         display: flex;
         flex-wrap: wrap;
+        gap: 24px;
         
     }
 
     .list-li-about {
-        width: 264px;
+        width: calc((100% - 24px * 3) /4);
         
-    }
-
-    .list-li-about:not(:last-child) {
-        margin-right: 24px;
     }
 
     .list-about-head {
@@ -363,40 +356,33 @@
         align-items: center;
         flex-direction: column;
         border-radius: 0 0 4px 4px;
-        
-        /* padding: 0px 0px 32px 0px; */
-        
-    }
+        width: calc((100% - 24px * 3) / 4);
+        }
 
     .teamcard-content {
-        width: 232px;
         padding: 32px 0;
 
     }
 
-    .list-li-teamcard:not(:last-child) {
-        margin-right: 24px 295.
-    }
-
     .list-teamcard-img {
-        border: 1px solid #000;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        /* border: 1px solid #000;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
 
     }
     .list-teamcard-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
-        letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
     text-align: center;
-        color: var(--navy-blue);
-        margin-bottom: 8px;
+    color: var(--navy-blue);
+    margin-bottom: 8px;
     }
 
     .list-teamcard-job {
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        text-align: center;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
         
     }
 
@@ -430,14 +416,7 @@
     .list-li-projectrard {
         background: var(--white);
         box-sizing: border-box;
-        width: 360px;
-        
-        /* flex-basis: calc(100% / 3 -24px); */
-    
-        /* margin-top: 24px; */
-    
-        /* margin-left: 24px; */
-        
+        width: calc((100% - 24px * 2) / 3);
     }
 
     .list-projectrard-img {
